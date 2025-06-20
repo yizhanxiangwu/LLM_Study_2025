@@ -1,4 +1,4 @@
-# Flow Guided RAG-Mamba 多模态 Agent 学习
+# 多模态 Agent 学习
 
 本项目旨在深入学习 Flow Guided RAG-Mamba 多模态 Agent。
 
