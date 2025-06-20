@@ -42,7 +42,7 @@ Flow matching 采样速度更快、理论更简洁。
 
 ### （1）ODE 形式建模概率流
 用 ODE 形式建模概率流：  
-$$\frac{d \mathbf{x}_t}{dt} = f_\theta(\mathbf{x}_t, t)$$
+$$\frac{d\mathbf{x}_t}{dt} = f_\theta(\mathbf{x}_t, t)$$
 
 ### （2）"流"即概率连续流（Probability Flow ODE）
 若用 $q(x_t \mid x_0)$ 来描述数据从起点（如高斯噪声）到真实数据的路径，
@@ -71,4 +71,4 @@ $$\mathcal{L}_{FM} = \mathbb{E}\left[\| f_\theta(x_t, t) - \frac{dx_t}{dt} \|^2\
 3. 推导关键公式
 4. 跑通官方代码demo
 5. 对比扩散模型理解优劣
-6. 深入进阶和实操实验
+6. 深入进阶和实操实验 
